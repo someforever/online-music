@@ -1,0 +1,105 @@
+* {
+  /*全局*/
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+a {
+  /*链接的文本装饰效果去除（eg：下划线）并将文本颜色设置为白色*/
+  text-decoration: none;
+  color: #fff;
+}
+.dis1 {
+  /*流式1*/
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.dis {
+  /*flex流式布局*/
+  display: flex;
+  justify-content: space-around;
+}
+.by1 {
+  /*轮播图下面标语位置*/
+  width: 90%;
+  height: 30px;
+  background-color: rgb(74, 95, 149);
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 500px;
+}
+
+.by1 p {
+  color: #ffffff;
+  font-family: '华文行楷';
+  font-size: 20px;
+  text-align: center;
+  margin-top: 6px;
+  letter-spacing: 7px;
+}
+.box4 {
+  /*第二模块右边部分样式*/
+  width: 58%;
+  height: 330px;
+  border: 8px solid;
+  position: relative;
+  opacity: 98%;
+  border-image: linear-gradient(45deg, rgb(64, 115, 217), rgb(47, 217, 206));
+  border-image-slice: 1;
+}
+.box5 {
+  /*文字块*/
+  width: 60%;
+  height: 80px;
+  line-height: 80px;
+  background-color: rgb(64, 115, 217);
+  border-radius: 14px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: -40px;
+  left: 20%;
+  font-family: '华文新魏';
+}
+
+.box6 {
+  /*音乐资讯的样式*/
+  margin-top: 60px;
+  margin-left: 30px;
+  font-size: 21px;
+  font-weight: bold;
+  color: rgb(64, 115, 217);
+}
+.aa {
+  /*第二模块右边横杠样式*/
+  margin: 10px;
+  border-bottom: 3px solid rgb(64, 115, 217);
+}
+.box22-by {
+  /*标语图层*/
+  width: 83%;
+  height: 30px;
+  background-color: rgb(74, 95, 149);
+  margin-left: 8.5%;
+  border-radius: 3px;
+  padding-top: 8px;
+}
+
+.box22-by p {
+  color: #ffffff;
+  font-family: '华文行楷';
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 7px;
+}
+@font-face {
+  font-family: 'electronicFont';
+  src: url('@/font/DS-DIGIT.TTF');
+}
